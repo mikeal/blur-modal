@@ -27,7 +27,7 @@ module.exports = content => {
   }
   const modalContainer = modal.querySelector('modal-container')
 
-  const elements = [...body.children]
+  const elements = Array.prototype.slice.call(document.body.children)
 
   const blur = () => {
     elements.forEach(el => {
