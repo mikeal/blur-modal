@@ -10,6 +10,6 @@
   "author": "Mikeal Rogers <mikeal.rogers@gmail.com> (http://www.mikealrogers.com)",
   "license": "Apache-2.0",
   "dependencies": {
-    "bel": "^4.5.1"
+    "bel": "^5.0.2"
   }
 }
